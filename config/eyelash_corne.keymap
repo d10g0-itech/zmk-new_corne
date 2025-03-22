@@ -54,12 +54,12 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "QWERTY";
+            display-name = "La base";
             bindings = <
-&kp TAB    &kp B  &kp M  &kp P     &kp R  &kp W                            &none         &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&td0       &kp A  &kp S  &kp D     &kp F  &kp G                     &none  &none  &none  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE           &none         &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                         &kp LGUI  &mo 1  &lt 3 SPACE                                    &lt 3 ENTER  &mo 2  &kp RALT
+&kp TAB    &kp B      &kp M  &kp P             &kp O     &kp W                        &none         &kp Z      &kp V  &kp D     &kp L  &kp J  &kp ESC
+&kp LSHFT  &kp A      &kp U  &kp I             &kp E     &kp COMMA             &none  &none  &none  &kp C      &kp T  &kp S     &kp R  &kp N  &kp SQT
+&kp LCTRL  &kp MINUS  &kp Y  &kp X             &kp DOT   &kp K      &kp DEL           &none         &kp N      &kp Q  &kp G     &kp H  &kp F  &kp ESC
+                             &kp LC(LEFT_ALT)  &kp LGUI  &kp RET                                    &kp SPACE  &to 1  &kp BSPC
             >;
         };
 

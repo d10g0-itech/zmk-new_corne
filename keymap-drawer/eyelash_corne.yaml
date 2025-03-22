@@ -3,7 +3,7 @@ layers:
   La base:
   - $$mdi:keyboard-tab$$
   - B
-  - ','
+  - {t: ;, s: ':'}
   - P
   - O
   - W
@@ -15,7 +15,7 @@ layers:
   - J
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-shift$$
-  - A
+  - Q
   - U
   - I
   - E
@@ -28,7 +28,7 @@ layers:
   - S
   - R
   - N
-  - {t: '''', s: '"'}
+  - {t: '4', s: $}
   - $$mdi:apple-keyboard-control$$
   - {t: '-', s: _}
   - Y

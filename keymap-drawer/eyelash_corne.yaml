@@ -3,7 +3,7 @@ layers:
   La base:
   - $$mdi:keyboard-tab$$
   - B
-  - M
+  - ','
   - P
   - O
   - W
@@ -19,7 +19,7 @@ layers:
   - U
   - I
   - E
-  - {t: ',', s: <}
+  - M
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}

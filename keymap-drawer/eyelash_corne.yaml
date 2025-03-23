@@ -96,7 +96,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '@', h: Config}
+  - MENU
   - {t: La base, h: toggle}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -233,7 +233,7 @@ layers:
   - RGB EFF
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: RGB EFR, type: held}
+  - RGB EFR
   - RGB SPI
   - RGB BRI
   - RGB BRD
@@ -243,5 +243,5 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
-  - {t: '$$mdi:backspace-reverse-outline$$', type: held}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}

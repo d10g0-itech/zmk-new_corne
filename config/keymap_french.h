@@ -50,6 +50,7 @@
 #define FR_AGRV N0    // à
 #define FR_RPRN MINUS   // )
 #define FR_EQL  EQUAL   // =
+#define FR_EACIR EC     // ê
 // Row 2
 #define FR_A    Q    // A
 #define FR_Z    W    // Z

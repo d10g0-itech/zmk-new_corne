@@ -68,7 +68,7 @@ layers:
   - {t: '''', s: '"'}
   - {t: '2', s: '@'}
   - {t: '7', s: '&'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Sft+., s: Sft+>}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -83,7 +83,7 @@ layers:
   - {t: /, s: '?'}
   - Sft+M
   - {t: ., s: '>'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: AltGr+8, s: AltGr+*}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}

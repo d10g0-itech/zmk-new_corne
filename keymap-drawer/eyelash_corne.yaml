@@ -42,7 +42,7 @@ layers:
   - G
   - H
   - F
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
   - Ctl+$$mdi:apple-keyboard-option$$
   - LGUI
   - {t: '$$mdi:keyboard-return$$', type: enter}

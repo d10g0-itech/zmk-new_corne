@@ -50,7 +50,7 @@ layers:
   - {t: SYMBOL, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   morte:
-  - MENU
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: Sft+1, s: Sft+!}
   - {t: Sft+2, s: Sft+@}
   - {t: Sft+3, s: Sft+#}
@@ -78,7 +78,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - HOME
   - PG UP
-  - APP
+  - $$mdi:apple-keyboard-option$$
   - {t: '8', s: '*'}
   - {t: /, s: '?'}
   - Sft+M

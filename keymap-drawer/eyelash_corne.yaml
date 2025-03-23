@@ -33,7 +33,7 @@ layers:
   - {t: '6', s: ^}
   - Y
   - X
-  - {t: ., s: '>'}
+  - {t: 'Sft+,', s: Sft+<}
   - K
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}

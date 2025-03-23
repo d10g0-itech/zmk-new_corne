@@ -37,7 +37,7 @@ layers:
   - K
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: morte, h: toggle}
+  - {t: morte, h: '$$mdi:gesture-tap-hold$$'}
   - Q
   - G
   - H
@@ -86,7 +86,7 @@ layers:
   - RGB EFF
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB EFR
+  - {t: RGB EFR, type: held}
   - RGB SPI
   - RGB BRI
   - RGB BRD

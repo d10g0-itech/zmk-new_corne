@@ -92,11 +92,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - END
   - PG DN
-  - {t: NUMBER, h: toggle}
+  - {t: Config, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '@', h: NUMBER}
+  - {t: '@', h: Config}
   - {t: La base, h: toggle}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -196,7 +196,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  NUMBER:
+  Config:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -239,7 +239,7 @@ layers:
   - RGB BRD
   - END
   - PG DN
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: La base, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - INS

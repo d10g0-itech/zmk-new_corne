@@ -79,9 +79,9 @@ layers:
   - HOME
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - SLASH RGB OFF
+  - {t: /, s: '?'}
   - RGB ON
-  - {t: '$$mdi:transfer$$', type: trans}
+  - ''
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFF
   - {t: '$$mdi:transfer$$', type: trans}

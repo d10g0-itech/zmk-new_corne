@@ -80,7 +80,7 @@ layers:
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
-  - 8 RGB ON
+  - '&trans RGB_ON'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFF

@@ -6,9 +6,9 @@ layers:
   - {t: ;, s: ':'}
   - P
   - O
-  - W
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Z
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - W
   - V
   - D
   - L

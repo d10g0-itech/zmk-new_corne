@@ -63,7 +63,7 @@ layers:
   - {t: Sft+9, s: Sft+(}
   - {t: Sft+0, s: Sft+)}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - CMENU
   - {t: '0', s: )}
   - {t: '''', s: '"'}
   - {t: '2', s: '@'}
@@ -78,7 +78,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - HOME
   - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
+  - APP
   - {t: '8', s: '*'}
   - {t: /, s: '?'}
   - Sft+M

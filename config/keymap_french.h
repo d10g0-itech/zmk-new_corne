@@ -51,6 +51,7 @@
 #define FR_RPRN MINUS   // )
 #define FR_EQL  EQUAL   // =
 #define FR_EACI    // ê
+#define FR_PPP  // …
 // Row 2
 #define FR_A    Q    // A
 #define FR_Z    W    // Z

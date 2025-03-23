@@ -37,7 +37,7 @@ layers:
   - K
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - morte
+  - '&lt 1'
   - Q
   - G
   - H
@@ -86,7 +86,7 @@ layers:
   - RGB EFF
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: RGB EFR, type: held}
+  - RGB EFR
   - RGB SPI
   - RGB BRI
   - RGB BRD

@@ -68,8 +68,8 @@
             display-name = "morte";
             bindings = <
 &trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                         &trans                     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
-&trans  &kp FR_AGRV   &kp FR_UGRV    &kp FR_EACU  &kp FR_EGRV  &kp FR_EACI                   &trans  &trans       &trans  &kp UP         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
-&trans  &kp FR_EXLM   &rgb_ug RGB_ON  &kp FR_PPP        &trans        &rgb_ug RGB_EFF  &trans                    &trans                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
+&trans  &kp FR_AGRV   &kp FR_UGRV    &kp FR_EACU  &kp FR_EGRV  &kp FR_EACI                   &trans  &trans       &trans  &kp RIGHT         &kp UP         &kp DOWN           &kp LEFT        &trans  &kp PG_UP
+&trans  &kp FR_EXLM   &trans  &trans        &trans        &trans  &trans                    &trans                   &trans  &trans  &trans  &trans  &kp END   &kp PG_DN
                                          &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &to 0
             >;
         };
@@ -78,7 +78,7 @@
             display-name = "SYMBOL";
             bindings = <
 &trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&trans  &trans    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                                     &trans     &trans     &kp RET                                                             &kp SPACE    &trans     &trans
             >;

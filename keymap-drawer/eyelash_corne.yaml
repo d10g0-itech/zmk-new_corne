@@ -65,7 +65,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
-  - '&kb SQT'
+  - {t: '''', s: '"'}
   - {t: '2', s: '@'}
   - {t: '7', s: '&'}
   - {t: '7', s: '&'}

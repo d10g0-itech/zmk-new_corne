@@ -30,7 +30,7 @@ layers:
   - N
   - {t: '4', s: $}
   - $$mdi:apple-keyboard-control$$
-  - {t: '-', s: _}
+  - {t: '6', s: ^}
   - Y
   - X
   - {t: ., s: '>'}

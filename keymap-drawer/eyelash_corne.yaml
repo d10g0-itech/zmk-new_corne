@@ -37,7 +37,7 @@ layers:
   - K
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: morte, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: morte, h: toggle}
   - Q
   - G
   - H
@@ -86,7 +86,7 @@ layers:
   - RGB EFF
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: RGB EFR, type: held}
+  - RGB EFR
   - RGB SPI
   - RGB BRI
   - RGB BRD
@@ -97,7 +97,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: La base, h: toggle}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'

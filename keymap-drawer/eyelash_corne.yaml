@@ -43,7 +43,7 @@ layers:
   - H
   - F
   - $$mdi:backspace-reverse-outline$$
-  - Ctl+$$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-option$$
   - LGUI
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
@@ -78,7 +78,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - HOME
   - PG UP
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '8', s: '*'}
   - {t: /, s: '?'}
   - Sft+M

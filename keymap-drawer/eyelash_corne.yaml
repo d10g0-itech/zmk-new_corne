@@ -68,7 +68,7 @@ layers:
   - '&kb SQT'
   - {t: '2', s: '@'}
   - {t: '7', s: '&'}
-  - EC
+  - {t: '7', s: '&'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

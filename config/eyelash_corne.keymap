@@ -59,7 +59,7 @@
             bindings = <
 &kp TAB    &kp B      &kp FR_M  &kp P             &kp O     &kp W                      &none         &kp Z      &kp V  &kp D     &kp L  &kp J  &kp ESC
 &kp LSHFT  &kp FR_A      &kp U  &kp I             &kp FR_E     &kp FR_COMM           &none  &none  &none  &kp C      &kp T  &kp S     &kp R  &kp N  &kp FR_QUOT
-&kp LCTRL  &kp MINUS  &kp Y  &kp X             &kp DOT   &kp K      &none           &none         &lt 1      &kp Q  &kp G     &kp H  &kp F  &kp BSPC
+&kp LCTRL  &kp MINUS  &kp Y  &kp X             &kp DOT   &kp K      &none           &none         &sl 1      &kp Q  &kp G     &kp H  &kp F  &kp BSPC
                              &kp LC(LEFT_ALT)  &kp LGUI  &kp RET                                  &kp SPACE  &to 2  &kp BSPC
             >;
         };

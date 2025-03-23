@@ -99,7 +99,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: La base, h: toggle}
   SYMBOL:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: La base, h: toggle}
   - '!'
   - '@'
   - '#'

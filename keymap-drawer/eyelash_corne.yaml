@@ -64,15 +64,15 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - à
-  - '&kb ù'
-  - é
-  - è
-  - ê
+  - {t: '0', s: )}
+  - '&kb SQT'
+  - {t: '2', s: '@'}
+  - {t: '7', s: '&'}
+  - EC
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - ç
+  - {t: '9', s: (}
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$

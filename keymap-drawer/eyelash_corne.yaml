@@ -89,7 +89,7 @@ layers:
   - {type: held}
   - $$mdi:mouse-right-click-outline$$
   - INS
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: AltGr+0, s: AltGr+)}
   - END
   - PG DN
   - {t: Config, h: toggle}

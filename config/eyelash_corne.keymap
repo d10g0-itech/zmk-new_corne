@@ -3,13 +3,13 @@
 
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
+#include "keymap_french.h"
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
-#include "keymap_french.h"
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
@@ -57,20 +57,20 @@
         default_layer {
             display-name = "La base";
             bindings = <
-&kp TAB    &kp B      &kp FR_M  &kp P             &kp O     &kp FR_W                     &none         &kp FR_Z      &kp V  &kp D     &kp L  &kp J  &kp ESC
-&kp LSHFT  &kp FR_A      &kp U  &kp I             &kp FR_E     &kp FR_COMM           &none  &none  &none  &kp C      &kp T  &kp S     &kp R  &kp N  &kp FR_QUOT
-&kp LCTRL  &kp FR_MINS  &kp Y  &kp X             &kp FR_DOT   &kp K      &none           &none         &sl 1      &kp FR_Q  &kp G     &kp H  &kp F  &kp DEL
-                             &kp LC(LEFT_ALT)  &kp LGUI  &kp RET                                  &kp SPACE  &to 2  &kp BSPC
+&kp TAB    &kp B        &kp FR_M  &kp P             &kp O       &kp FR_W                     &none         &kp FR_Z   &kp V     &kp D     &kp L  &kp J  &kp ESC
+&kp LSHFT  &kp FR_A     &kp U     &kp I             &kp FR_E    &kp FR_COMM           &none  &none  &none  &kp C      &kp T     &kp S     &kp R  &kp N  &kp FR_QUOT
+&kp LCTRL  &kp FR_MINS  &kp Y     &kp X             &kp FR_DOT  &kp K        &none           &none         &sl 1      &kp FR_Q  &kp G     &kp H  &kp F  &kp DEL
+                                  &kp LC(LEFT_ALT)  &kp LGUI    &kp RET                                    &kp SPACE  &to 2     &kp BSPC
             >;
         };
 
         lower_layer {
             display-name = "morte";
             bindings = <
-&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                         &trans                     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
-&trans  &kp FR_AGRV   &kp FR_UGRV    &kp FR_EACU  &kp FR_EGRV  &kp FR_EACI                   &trans  &trans       &trans  &kp RIGHT         &kp UP         &kp DOWN           &kp LEFT        &trans  &kp PG_UP
-&trans  &kp FR_EXLM   &trans  &trans        &trans        &trans  &trans                    &trans                   &trans  &trans  &trans  &trans  &kp END   &kp PG_DN
-                                         &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &to 0
+&trans  &kp N1       &kp N2       &kp N3       &kp N4       &kp N5                         &trans          &kp N6    &kp N7   &kp N8    &kp N9     &kp N0    &kp BSPC
+&trans  &kp FR_AGRV  &kp FR_UGRV  &kp FR_EACU  &kp FR_EGRV  &kp FR_EACI            &trans  &trans  &trans  &kp LEFT  &kp UP   &kp DOWN  &kp RIGHT  &kp HOME  &kp PG_UP
+&trans  &kp FR_EXLM  &trans       &trans       &trans       &trans       &trans            &trans          &trans    &trans   &trans    &trans     &kp END   &kp PG_DN
+                                  &trans       &trans       &trans                                         &kp INS   &kp DEL  &to 0
             >;
         };
 
@@ -78,9 +78,9 @@
             display-name = "SYMBOL";
             bindings = <
 &trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &trans    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&trans  &trans        &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                    &trans     &trans     &kp RET                                                             &kp SPACE    &trans     &trans
+                                    &trans     &trans     &kp RET                                                               &kp SPACE  &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;

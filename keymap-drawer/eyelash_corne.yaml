@@ -15,15 +15,15 @@ layers:
   - J
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-shift$$
-  - '&mt RA(N0)/Q'
+  - {t: Q, h: AltGr+0}
   - U
   - I
-  - '&mt RA(KC_E)/E'
+  - {t: E, h: AltGr+KC E}
   - M
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mt N9/C'
+  - {t: C, h: '9'}
   - T
   - S
   - R

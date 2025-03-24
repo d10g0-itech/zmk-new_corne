@@ -57,7 +57,7 @@
             display-name = "La base";
             bindings = <
 &kp TAB    &kp B        &kp FR_M  &kp P         &kp O       &kp FR_W                     &none         &kp FR_Z   &kp V     &kp D     &kp L  &kp J  &kp ESC
-&kp LSHFT  &kp FR_A     &kp U     &kp I         &kp FR_E    &kp FR_COMM           &none  &none  &none  &kp C      &kp T     &kp S     &kp R  &kp N  &kp FR_QUOT
+&kp LSHFT  &mt FR_AT FR_A     &kp U     &kp I         &kp FR_E    &kp FR_COMM           &none  &none  &none  &kp C      &kp T     &kp S     &kp R  &kp N  &kp FR_QUOT
 &kp LCTRL  &kp FR_MINS  &kp Y     &kp X         &kp FR_DOT  &kp K        &none           &none         &sl 1      &kp FR_Q  &kp G     &kp H  &kp F  &kp DEL
                                   &kp LEFT_ALT  &kp LGUI    &kp RET                                    &kp SPACE  &sl 2     &kp BSPC
             >;

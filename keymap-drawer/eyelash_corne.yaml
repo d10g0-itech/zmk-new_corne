@@ -18,7 +18,7 @@ layers:
   - {t: Q, h: AltGr+0}
   - U
   - I
-  - {t: E, h: AltGr+KC E}
+  - E
   - M
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}

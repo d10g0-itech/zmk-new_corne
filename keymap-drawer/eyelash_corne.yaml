@@ -15,7 +15,7 @@ layers:
   - J
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-shift$$
-  - Q
+  - {t: Q, h: AltGr+0}
   - U
   - I
   - E

@@ -19,7 +19,7 @@ layers:
   - U
   - I
   - E
-  - M
+  - {t: M, h: '9'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}

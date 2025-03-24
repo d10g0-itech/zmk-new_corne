@@ -18,12 +18,12 @@ layers:
   - {t: Q, h: AltGr+0}
   - U
   - I
-  - E
-  - M
+  - {t: E, h: AltGr+KC E}
+  - {t: M, h: ','}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - C
+  - {t: C, h: '9'}
   - T
   - S
   - R

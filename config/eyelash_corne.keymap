@@ -43,13 +43,13 @@
             display-name = "A/@ Tap Dance";
             #binding-cells = <0>;
             bindings = <&kp FR_A>, <&kp FR_AT>;
-        }
+        };
         td2: td2 {
             compatible = "zmk,behavior-tap-dance";
             display-name = "C/ç Tap Dance";
             #binding-cells = <0>;
             bindings = <&kp FR_C>, <&kp FR_CCED>;
-        }
+        };
     };
 
     rgb_encoder: rgb_encoder {

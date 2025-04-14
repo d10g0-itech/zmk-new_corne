@@ -11,7 +11,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &mt {
-    tapping-term-ms = <500>; // This is the value already set by default
+    tapping-term-ms = <100>; // This is the value already set by default
 };
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
@@ -38,6 +38,18 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
+        td1: td1 {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "A/@ Tap Dance";
+            #binding-cells = <0>;
+            bindings = <&kp FR_A>, <&kp FR_AT>;
+        }
+        td2: td2 {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "C/ç Tap Dance";
+            #binding-cells = <0>;
+            bindings = <&kp FR_C>, <&kp FR_CCED>;
+        }
     };
 
     rgb_encoder: rgb_encoder {
@@ -61,7 +73,7 @@
             display-name = "La base";
             bindings = <
 &kp TAB    &kp B        &kp FR_M  &kp P         &kp O       &kp FR_W                     &none         &kp FR_Z   &kp V     &kp D     &kp L  &kp J  &kp ESC
-&kp LSHFT  &mt FR_AT FR_A     &kp U     &kp I         &kp FR_E    &mt FR_SCLN FR_COMM           &none  &none  &none  &mt FR_CCED C      &kp T     &kp S     &kp R  &kp N  &kp FR_QUOT
+&td0  &td1     &kp U     &kp I         &kp FR_E    &mt FR_SCLN FR_COMM           &none  &none  &none  &td2 FR_CCED C      &kp T     &kp S     &kp R  &kp N  &kp FR_QUOT
 &kp LCTRL  &kp FR_MINS  &kp Y     &kp X         &kp FR_DOT  &kp K        &none           &none         &sl 1      &kp FR_Q  &kp G     &kp H  &kp F  &kp DEL
                                   &kp LEFT_ALT  &kp LGUI    &kp RET                                    &kp SPACE  &sl 2     &kp BSPC
             >;

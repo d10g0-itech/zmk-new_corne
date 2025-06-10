@@ -57,7 +57,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "'/* Tap Dance";
             binding = <&kp FR_>, <>;
-        }
+        };
     };
 
     rgb_encoder: rgb_encoder {

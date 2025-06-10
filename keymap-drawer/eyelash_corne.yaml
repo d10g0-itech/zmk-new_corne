@@ -89,7 +89,7 @@ layers:
   - {type: held}
   - $$mdi:mouse-right-click-outline$$
   - INS
-  - '*'
+  - Sft+*
   - END
   - PG DN
   - {t: Config, h: toggle}

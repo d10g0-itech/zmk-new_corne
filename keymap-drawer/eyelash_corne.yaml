@@ -28,7 +28,7 @@ layers:
   - S
   - R
   - N
-  - '&td3'
+  - {t: '4', h: '*', s: $}
   - $$mdi:apple-keyboard-control$$
   - {t: '6', s: ^}
   - Y

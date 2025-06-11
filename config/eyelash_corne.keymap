@@ -57,7 +57,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "'/* Tap Dance";
             #binding-cells = <0>;
-            bindings = <&kp FR_ASTR>, <&kp FR_QUOT>;
+            bindings = <&kp ASTRK>, <&kp FR_QUOT>;
         };
     };
 

@@ -79,7 +79,7 @@
 #define FR_UGRV SQT  // ù
 #define FR_ASTR ASTRK // *
 // Row 4
-#define FR_LABK STAR // <
+//#define FR_LABK STAR // <
 #define FR_W    Z    // W
 #define FR_X    X    // X
 #define FR_C    C    // C
@@ -122,7 +122,7 @@
 #define FR_PND  LS(FR_DLR)  // £
 // Row 3
 #define FR_PERC LS(FR_UGRV) // %
-#define FR_MICR LS(FR_ASTR) // µ
+//#define FR_MICR LS(FR_ASTR) // µ
 // Row 4
 #define FR_RABK LS(FR_LABK) // >
 #define FR_QUES LS(FR_COMM) // ?

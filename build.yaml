@@ -4,7 +4,7 @@ include:
     shield: urchin_left nice_view_adapter nice_view_custom #custom shield
     #snippet: zmk-usb-logging    # Uncomment to log over USB.
   - board: eyelash_corne_right
-    shield: urchin_left nice_view_adapter nice_view_custom #custom shield
+    shield: urchin_right nice_view_adapter nice_view_custom #custom shield
     #snippet: zmk-usb-logging
   - board: eyelash_corne_left
     shield: urchin_left nice_view_adapter nice_view_custom #custom shield

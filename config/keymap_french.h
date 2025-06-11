@@ -77,7 +77,7 @@
 #define FR_L    L    // L
 #define FR_M    SEMI // M
 #define FR_UGRV SQT  // ù
-#define FR_ASTR ASTRK // *
+//#define FR_ASTR ASTRK // *
 // Row 4
 //#define FR_LABK STAR // <
 #define FR_W    Z    // W

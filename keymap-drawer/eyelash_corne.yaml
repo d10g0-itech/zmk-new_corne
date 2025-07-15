@@ -123,9 +123,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - KP GT
-  - {t: '[', s: '{'}
-  - '*'
+  - <
+  - '>'
+  - ^
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: AltGr+=, s: AltGr++}

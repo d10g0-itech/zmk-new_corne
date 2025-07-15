@@ -102,7 +102,7 @@
             display-name = "SYMBOL";
             bindings = <
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                   &none         &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9      &kp NUMBER_0  &kp BSPC
-&trans  &kp FR_LCBR   &kp FR_LBRC   &kp FR_LPRN   &kp FR_DLR    &kp FR_PERC             &none  &none  &none  &kp MINUS     &kp EQUAL     &kp LESS_THAN  &kp GREATER_THAN  &kp FR_EACI    &kp GRAVE
+&trans  &kp FR_LCBR   &kp FR_LBRC   &kp FR_LPRN   &kp FR_DLR    &kp FR_PERC             &none  &none  &none  &kp MINUS     &kp EQUAL     &kp LESS_THAN  &kp GREATER_THAN  &kp LBKT    &kp GRAVE
 &trans  &kp FR_RCBR   &kp FR_RBRC   &kp FR_RPRN   &kp FR_HASH   &kp FR_PIPE   &trans           &none         &kp UNDER     &kp PLUS      &kp LBRC       &kp RBRC          &to 3         &kp TILDE
                                     &trans        &trans        &trans                                       &trans        &to 0         &trans
             >;

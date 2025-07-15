@@ -125,7 +125,7 @@
 #define FR_PERC LS(FR_UGRV) // %
 //#define FR_MICR LS(FR_ASTR) // µ
 // Row 4
-#define FR_RABK LS(FR_LABK) // >
+//#define FR_RABK LS(FR_LABK) // >
 #define FR_QUES LS(FR_COMM) // ?
 #define FR_DOT  LS(FR_SCLN) // .
 #define FR_SLSH LS(FR_COLN) // /

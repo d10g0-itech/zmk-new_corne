@@ -79,7 +79,8 @@
 #define FR_UGRV SQT  // ù
 //#define FR_ASTR ASTRK // *
 // Row 4
-//#define FR_LABK STAR // <
+#define FR_LABK LT   // <
+#define FR_RABK GT   // > 
 #define FR_W    Z    // W
 #define FR_X    X    // X
 #define FR_C    C    // C

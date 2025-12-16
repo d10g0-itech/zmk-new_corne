@@ -34,5 +34,8 @@ manifest:
     - name: nice-view-elemental
       remote: kevinpastor
       revision: main
+    - name: urchin-peripheral-animation
+      remote: gpeye
+      revision: main
   self:
     path: config

@@ -12,7 +12,12 @@ manifest:
       url-base: https://github.com/GPeye  #new entry
     - name: kevinpastor
       url-base: https://github.com/kevinpastor
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17  
   projects:
+    - name: zmk-nice-oled
+      remote: mctechnology17
+      revision: main
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
       revision: main
